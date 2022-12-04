@@ -1,0 +1,98 @@
+/** @format */
+
+/* pin lace #F0D3F7
+opera mauve #B98EA7
+english lav #A57982
+space cadet #302F4D
+russian vi #120D31 */
+
+/* @font-face {
+	font-family: Syne;
+	src: url('/assets/Syne/Syne-Variable.ttf');
+} */
+
+body {
+	background-color: rgba(48, 47, 77, 0.015);
+	color: rgba(18, 13, 48, 0.69);
+	font-family: Helvetica Neue, Arial, sans-serif;
+	margin: 90px;
+}
+
+@media (max-width: 900px) {
+	body {
+		margin: 30px !important;
+	}
+}
+
+a {
+	color: rgba(18, 13, 48, 0.69);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: rgba(18, 13, 48, 0.75);
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+p,
+ul,
+ol,
+table {
+	line-height: 1.8em;
+}
+
+p {
+	max-width: 690px;
+	margin-bottom: 30px;
+}
+
+p.alert {
+	background-color: rgba(48, 47, 77, 0.03);
+	color: rgba(48, 47, 77, 0.6);
+	border: 1px solid rgba(48, 47, 77, 0.3);
+	padding: 30px;
+	border-radius: 3px;
+	margin-bottom: 90px;
+}
+
+p.alert a {
+	color: rgba(48, 47, 77, 0.6);
+}
+
+blockquote {
+	margin: 0;
+}
+
+blockquote p {
+	padding: 3em;
+	background: rgba(48, 47, 77, 0.03);
+	border-radius: 3px;
+	font-size: 1.5em;
+}
+
+@media (max-width: 900px) {
+	#strengthsValuesContainer {
+		flex-direction: column !important;
+		align-items: center;
+	}
+
+	#strengthsValuesContainer div {
+		width: 450px;
+		margin-right: auto !important;
+	}
+}
